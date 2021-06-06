@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Form</title>
+    <link rel="stylesheet" type="text/css" href="Css/style_contac.css">
+    <link rel="stylesheet" href="Css/normalize.css"/>
+</head>
+<body>
+    
+    <div class="form">
+        <form class="form__estruct" action="Php/consulta.php" method="post" onsubmit="return validation(); ">
+            <h2>ADMINISTRADOR DE USUARIOS</h2>
+            <input type="text" id="nombre" placeholder="Nombre" name="nombre"  required>
+            <input type="text" id="apellido" placeholder="Apellido" name="apellido" required>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+            <input type="text" id="telefono" placeholder="Teléfono" name="telefono" required>
+            <input type="text" id="asunto" placeholder="Asunto" name="asunto" required>
+            <textarea id="msg" placeholder="Mensaje" name="msg"></textarea>
+            <input type="submit" value="Contactar" name="enviar">
+        </form>
+    </div>
+
+
+</body>
+<script src="Js/validation.js">
+
+</script>
+<footer></footer>
+</html>

@@ -1,0 +1,125 @@
+body {
+    margin:0;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url(Img/modern\ business.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.Img {
+    
+    max-width: 100%;
+    opacity: 0.97;
+    
+}
+.Img__logo {
+   margin: 0 auto;
+   display: block;
+   
+}
+.separador1 {
+    margin: 50px;
+}
+
+.login {
+    width: 25%;
+    max-width: 27%;
+    min-width: 20%;
+    max-height: 45%;
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(-45deg, rgba(236, 240, 240, 0.39), rgba(239, 241, 243, 0.349));
+    box-shadow: 0px 0px 5px rgba(80, 80, 95, 0.76), 0px 0px 10px rgba(52, 52, 61, 0.76);
+    border-radius: 5px;
+   
+    
+}
+.form-title {
+    width: 100%;
+    margin: 5px 0;
+    padding: 0px;
+    text-align: center;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: cornflowerblue;
+    
+}
+.form-input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px ;
+    background-color: rgba(233, 233, 220, 0.801);
+    border: none;
+    border-radius: 2px;
+    font-family: 'Segoe UI';
+   
+    font-size: 12px;
+    color: rgba(103, 104, 105, 0.815);
+
+}
+.form-btn{
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(40, 137, 228);
+    border: none;
+    font-family:  Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(198, 214, 245);
+    opacity: 0.7;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.form-text{
+    margin: 10px 0 0 0;
+    width: 100%;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 10px;
+
+}
+/*Selectores Pseudo Clases*/
+
+input::placeholder{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: inherit;
+    border: none;
+    color: rgba(129, 132, 139, 0.74);
+
+}
+input:focus{
+    outline: 1px solid rgba(142, 142, 209, 0.822);
+}
+input[type="submit"]:hover{
+    opacity: 1;
+}
+input[type="submit"]:active{
+    transform: scale(1.01);
+}
+a:hover{
+    color: rgb(24, 179, 171);
+}
+/* Pie de página*/
+.footer{
+    
+    border: 1px solid transparent;
+    margin: 400px auto 0;
+    text-align: center;
+    font-size: 12px;
+    color: lightgray;
+}
+.footer:hover{
+    color: rgb(253, 253, 255);
+    background-color: rgba(112, 104, 104, 0.466);
+}
+
+
+
+
+
+
